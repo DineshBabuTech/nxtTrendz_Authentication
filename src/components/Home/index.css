@@ -1,0 +1,59 @@
+/* Write your CSS code here */
+.home-container {
+  font-family: 'Roboto';
+  display: flex;
+  align-items: center;
+}
+.lg-fashions {
+  margin-left: 50px;
+}
+.heading {
+  font-size: 50px;
+  color: #1e293b;
+}
+.description {
+  color: #64748b;
+  font-size: 20px;
+}
+.shop-btn {
+  background-color: #0967d2;
+  color: #ffffff;
+  border: none;
+  height: 45px;
+  border-radius: 6px;
+  width: 155px;
+  font-family: 'Roboto';
+  font-size: 17px;
+  text-align: center;
+}
+@media screen and (max-width: 767px) {
+  .sm-cont {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+  }
+  .heading {
+    font-size: 38px;
+    text-align: center;
+  }
+  .description {
+    font-size: 12px;
+    text-align: center;
+  }
+  .lg-fashions {
+    display: none;
+  }
+  .shop-btn {
+    font-size: 15px;
+  }
+}
+.sm-fashion {
+  width: 200px;
+}
+@media screen and (min-width: 768px) {
+  .sm-fashion {
+    display: none;
+  }
+}

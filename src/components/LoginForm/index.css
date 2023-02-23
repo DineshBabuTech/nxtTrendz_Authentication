@@ -1,0 +1,70 @@
+/* Write your CSS code here */
+.lg-website-login {
+  width: 50vw;
+}
+.sm-website-login {
+  width: 30vw;
+  margin: 30px;
+}
+.login-container {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px;
+}
+.form-cont {
+  background-color: #ffffff;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+}
+.website-logo {
+  width: 210px;
+  height: 50px;
+  margin: 25px;
+}
+.input {
+  background-color: #e2e8f0;
+  border: 2px solid #d7dfe9;
+  outline: none;
+  height: 42px;
+  border-radius: 3px;
+  padding-left: 15px;
+  font-size: 16px;
+  width: 280px;
+  margin-bottom: 20px;
+}
+.label-text {
+  color: #475569;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+.login-btn {
+  background-color: #0b69ff;
+  border-radius: 15pxs;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  padding: 10px;
+  font-family: 'Roboto';
+  color: #ffffff;
+  border-radius: 9px;
+  height: 42px;
+  font-size: 15px;
+}
+.error {
+  color: #ff0b37;
+}
+@media screen and (max-width: 767px) {
+  .lg-website-login {
+    display: none;
+  }
+}
+@media screen and (min-width: 768px) {
+  .sm-website-login {
+    display: none;
+  }
+}

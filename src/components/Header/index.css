@@ -1,0 +1,71 @@
+/* Write your CSS code here */
+.nav-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  font-family: 'Roboto';
+}
+.website-logo {
+  width: 170px;
+  height: 40px;
+}
+.logout-icon {
+  width: 30px;
+}
+
+.nav-icons {
+  display: flex;
+  justify-content: space-around;
+  background-color: #e6f6ff;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-top: 20px;
+}
+@media screen and (min-width: 768px) {
+  .logout-icon {
+    display: none;
+  }
+  .nav-icons {
+    display: none;
+  }
+}
+
+.nav-icon {
+  width: 30px;
+}
+
+.nav-menu {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+}
+@media screen and (max-width: 767px) {
+  .nav-menu {
+    display: none;
+  }
+  .website-logo {
+    width: 90px;
+    height: 22px;
+  }
+}
+
+.header-text {
+  color: #475569;
+  margin-right: 20px;
+  font-size: 18px;
+  font-weight: 400;
+}
+.logout-btn {
+  background-color: #0967d2;
+  color: #ffffff;
+  font-family: 'Roboto';
+  border: none;
+  font-size: 11px;
+  border-radius: 5px;
+  width: 68px;
+  height: 29px;
+  text-align: center;
+  padding: 5px;
+}
